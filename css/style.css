@@ -1549,7 +1549,7 @@ textarea {
 .p-b-lg { padding-bottom: 120px !important; }
 .p-l-lg { padding-left:   120px !important; }
 .p-x-lg { padding-right:  120px !important; padding-left:   120px !important; }
-.p-y-lg { padding-top:    120px !important; padding-bottom: 120px !important; }
+.p-y-lg { padding-top:    80px !important; padding-bottom: 80px !important; }
 
 /* centering vertically section*/
 .vertical-center-abs, .vertical-center-rel{
