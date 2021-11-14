@@ -12,8 +12,13 @@
 
     <!-- FAVICON  -->
     <!-- Place your favicon.ico in the images directory -->
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <link rel="manifest" href="favicons/site.webmanifest">
+    <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 
     <!-- =========================
        STYLESHEETS
@@ -354,8 +359,7 @@
                    <!-- Video Iframe -->
                    <div class="col-md-10 col-md-offset-1 text-center">
                        <div class="videoWrapper">
-                           <iframe width="560" height="315" src="https://www.youtube.com/embed/sU3FkzUKHXU" allowfullscreen=""></iframe>
-                           <div class="frameCover" data-type="video"></div>
+                           <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/W1e6Ur4h6g8" title="Porto Hydra Village" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                        </div>
                    </div>
                </div><!-- /End Row -->
@@ -505,17 +509,12 @@
                         <p>Copyright © 2021 Porto Hydra Village.<br> All rights are reserved.</p>
                     </div>
                     <div class="col-sm-4 col-xs-12 text-center">
-                        <ul class="footer-social">
-                            <li><a href="" class="inverse"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="" class="inverse"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="" class="inverse"><i class="fa fa-google-plus"></i></a></li>
-                        </ul>
                     </div>
                     <div class="col-sm-4 col-xs-12">
                         <ul class="footer-links">
-                            <li><a href="" title="" class="edit inverse">License</a></li>
-                            <li><a href="" title="" class="edit inverse">Terms of use</a></li>
-                            <li><a href="mailto:mail@themedept.com" class="edit inverse"><i class="fa fa-envelope-o"></i>Get in touch</a></li>
+                            <li><a href="/announcements.html" title="" class="edit inverse">Announcements</a></li>
+                            <li><a href="" title="" class="edit inverse">Login</a></li>
+                            <li><a href="mailto:info@portohydravillage.gr" class="edit inverse"><i class="fa fa-envelope-o"></i>Get in touch</a></li>
                         </ul>
                     </div>
                 </div><!-- /End Row -->
@@ -543,13 +542,13 @@
            },
 
            // Position for the cookie-notifier (default=bottom)
-           'cookieNoticePosition':'top',
+           'cookieNoticePosition':'bottom',
 
            // Shows the "learn more button (default=false)
-           'learnMoreLinkEnabled':false,
+           'learnMoreLinkEnabled':true,
 
            // The href of the learn more link must be applied if (learnMoreLinkEnabled=true)
-           'learnMoreLinkHref':'/learn/more/index.html',
+           'learnMoreLinkHref':'/policy.html',
 
            // Text for optional learn more button
            'learnMoreLinkText':{
