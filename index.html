@@ -42,7 +42,6 @@
     <!-- RESPONSIVE FIXES -->
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/4.1.5/css/flag-icons.min.css" integrity="sha512-UwbBNAFoECXUPeDhlKR3zzWU3j8ddKIQQsDOsKhXQGdiB5i3IHEXr9kXx82+gaHigbNKbTDp3VY/G6gZqva6ZQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -528,7 +527,55 @@
     <!--
     <a href="#" class="top">Top</a>
     -->
+    <script src="js/cookie.notice.min.js"></script>
 
+    <script>
+        new cookieNoticeJS({
+
+           // Localizations of the notice message
+           'messageLocales': {
+             'it': 'Custom localized message'
+           },
+
+           // Localizations of the dismiss button text
+           'buttonLocales': {
+             'it': 'Chiudi'
+           },
+
+           // Position for the cookie-notifier (default=bottom)
+           'cookieNoticePosition':'top',
+
+           // Shows the "learn more button (default=false)
+           'learnMoreLinkEnabled':false,
+
+           // The href of the learn more link must be applied if (learnMoreLinkEnabled=true)
+           'learnMoreLinkHref':'/learn/more/index.html',
+
+           // Text for optional learn more button
+           'learnMoreLinkText':{
+               'en':'learn more'
+           },
+
+           // The message will be shown again in X days
+           'expiresIn': 30,
+
+           // Dismiss button background color
+           'buttonBgColor': '#d35400',
+
+           // Dismiss button text color
+           'buttonTextColor': '#fff',
+
+           // Notice background color
+           'noticeBgColor': '#000',
+
+           // Notice text color
+           'noticeTextColor': '#fff',
+
+           // the lernMoreLink color (default='#009fdd')
+           'linkColor':'#f00'
+
+        });
+    </script>
 
     <!-- =========================
          SCRIPTS
