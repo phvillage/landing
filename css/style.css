@@ -45,7 +45,7 @@ Hotel Landing page, Software Landing page, Medical Landing page, Hosting Landing
    01. GENERAL STYLE
 ========================================================================== */
 body {
-    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
     line-height: 20px;
     color: #69696E;
@@ -347,7 +347,7 @@ b {
     zoom: 1;
     filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#80000000', endColorstr='#80000000');
     background: transparent;
-    background: rgba(51, 51, 51, 0.20);
+    background: rgba(51, 51, 51, 0.45);
 }
 
 /* set filter as none for IE9+, because IE9+ support RGBa */
@@ -775,8 +775,9 @@ a.btn-border.btn-black {
 }
 
 .btn-ghost:hover {
-    background-color: #fff;
-    color: #69696E!important;
+    background-color: white!important;
+    border: 3px solid #fff;
+    color: black!important;
 }
 
 .btn-white {
