@@ -347,7 +347,7 @@ b {
     zoom: 1;
     filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#80000000', endColorstr='#80000000');
     background: transparent;
-    background: rgba(51, 51, 51, 0.45);
+    background: rgba(51, 51, 51, 0.35);
 }
 
 /* set filter as none for IE9+, because IE9+ support RGBa */
@@ -778,6 +778,20 @@ a.btn-border.btn-black {
     background-color: white!important;
     border: 3px solid #fff;
     color: black!important;
+}
+
+@media screen and (max-width: 991px) {
+.btn-ghost {
+    background-color: #B0B0B0;
+    border: 3px solid #B0B0B0;
+    color: #black;
+}
+
+.btn-ghost:hover {
+    background-color: #B0B0B0!important;
+    border: 3px solid #B0B0B0;
+    color: white!important;
+}
 }
 
 .btn-white {
@@ -1608,10 +1622,12 @@ textarea {
     border: none;
     margin-bottom: 0;
     padding: 20px;
+    /*
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
+    */
 }
 
 .top-nav-collapse {
@@ -1655,7 +1671,7 @@ textarea {
 }
 
 .navbar-toggle .icon-bar {
-    background-color: #404B55;
+    background-color: white;
     opacity: 0.8;
 }
 
@@ -1678,12 +1694,9 @@ textarea {
 }
 
 .navbar.bg-transparent.top-nav-collapse {
-    background-color: #fff;
+    background-color: transparent;
     box-shadow: 0 1px 1px rgba(0,0,0,.1);
-    -webkit-transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
+
 }
 
 .navbar.bg-transparent .logo-white,

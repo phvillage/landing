@@ -168,6 +168,7 @@
 
     .navbar-toggle {
         display: block;
+
     }
 
     .navbar-collapse {
@@ -179,7 +180,7 @@
     }
 
     .bg-color .navbar-collapse {
-        border-top-color: #fff;
+        border-top-color: white;
     }
 
     .navbar-collapse.collapse {
@@ -188,6 +189,7 @@
 
     .navbar-collapse.collapse.in {
         display: block!important;
+        background-color: white;
     }
 
     .navbar-nav {
@@ -266,7 +268,7 @@
     /*    Navbar Transparent
     /*-----------------------------------------------------------*/
     .navbar.bg-transparent {
-        background-color: #fff;
+        background-color: transparent;
     }
 
     .navbar.bg-transparent .logo-white {
